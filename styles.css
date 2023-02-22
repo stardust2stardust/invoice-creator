@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.invoice-container {
+    border: 2px solid blue;
+}
+
+.invoice-header {
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.invoice-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.invoice-table {
+    border: 2px solid magenta;
+}
+
+.invoice-table .tr {
+    display: flex;
+    width: 100%;
+}
+
+.description {
+    flex-basis: 40%;
+}
+
+.hours, .rate, .total {
+    flex-basis: 20%;
+}
